@@ -1,4 +1,33 @@
-*terraform.tfstate*
+# This is a minimal list, OK to add things per repo
+
+# .ssh dir may contain private keys
+.ssh
+.terrascan
+
+# Terraform dot files
+.terraform
+.terraformrc
+**/.terraform/*
+.terraform.d
+*.tfstate
+*.tfstate.*
 *terraform.lock*
-*.zip
+.vscode
+.idea
+.idea
+
+# Auto variables
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# jupyter 
 *.ipynb_checkpoints*
+
+# lambda zip files
+*.zip
+
+# mac specific
+.DS_Store
+.bash_history
